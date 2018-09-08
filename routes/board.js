@@ -12,7 +12,7 @@ router.get('/buildBoard', function(req, res) {
   // calling function to build board
   res.send(buildBoard(board_rows, board_cols, mine_count));
 });
-
+/*
 //Checks the given position against the size of the board to insure
 //updateBoardValues() doesn't go out of the arrays range.
 function isInBoundry(board_cols, board_rows, i, j)
@@ -81,7 +81,7 @@ function updateBoardValues(game_board, board_cols, board_rows)
         console.log("cell value updated");
       }
     }
-}
+}*/
 /*
   * Builds game board to spec of board_rows, board_cols, and mine_count
   * Lopps if not all mines used, returns game_board upon successful use of all mines
